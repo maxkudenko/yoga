@@ -1,0 +1,165 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+    .classes
+        .classes-list
+            justify-content: center
+
+
+    .about-us
+          text-align: center
+          padding: 75px 0
+          .about-us-title
+              padding-top: 0
+              padding-right: 0
+          p
+              padding-top: 20px
+          .about-us-carousel
+              width: 100%
+              padding: 30px
+          .wrapper
+              display: block
+
+
+
+    .prices
+        li
+            width: 290px
+
+    footer
+        .footer-about
+            padding-left: 30px
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+    .prices
+        li
+            width: 250px
+
+    .trainer
+        margin: 20px 20px
+        flex-wrap: wrap
+        justify-content: center
+        .trainer-comments
+            padding: 50px
+        .photo-holder
+            padding: 20px
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+    .header
+        padding: 10px 0
+    .header-menu
+        a
+            font-size: 12px
+
+
+    .top-section
+        padding: 30px 0
+    .top-section-flex
+        flex-wrap: wrap
+        justify-content: center
+    .top-section-title
+        width: 100%
+        order: -1
+        padding-left: 50px
+    .form-wrapper
+        padding-top: 30px
+
+
+
+    .classes
+        padding-top: 50px
+        .classes-list
+            justify-content: center
+
+    .program
+        padding: 50px 0
+
+    .list-item
+        img
+            display: none
+
+
+    .about-us
+        .wrapper
+            display: block
+
+    .feture
+        padding-top: 50px
+        padding-bottom: 50px
+        .feture-list
+            li
+                width: 50%
+
+    .prices-list
+        justify-content: center
+    .prices
+        li
+            width: 380px
+            margin-top: 30px
+
+    footer
+        padding: 30px 0
+        .wrapper
+            display: block
+            .footer-about
+                width: 100%
+                padding: 30px
+            .footer-contacts
+                width: 100%
+                padding: 30px
+                li:nth-child(odd)
+                   padding-right: 0
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+    header
+        .wrapper
+            flex-wrap: wrap
+            justify-content: center
+    .header-menu
+        width: 160px
+        a
+            font-size: 10px
+        &-left
+            padding-right: 0
+        &-left
+            padding-left: 0
+    .header-logo
+        text-align: center
+        order: -1
+        width: 100%
+
+    .form-wrapper
+        padding-right: 0
+    .top-section-title
+        .h1
+            font-size: 35px
+        span
+            font-size: 28px
+    .feture
+        .feture-list
+            li
+                width: 100%
+
+    .prices
+        li
+            width: 300px
+            margin-top: 30px
+    footer
+        .footer-contacts
+            .contacts
+                li
+                    width: 100%
+
+
+
+
